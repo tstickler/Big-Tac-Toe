@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3A4C84021B5D5640044500F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4C83F21B5D5640044500F /* AppDelegate.swift */; };
+		F3A4C84221B5D5640044500F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4C84121B5D5640044500F /* ViewController.swift */; };
+		F3A4C84521B5D5640044500F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A4C84321B5D5640044500F /* Main.storyboard */; };
+		F3A4C84721B5D5650044500F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A4C84621B5D5650044500F /* Assets.xcassets */; };
+		F3A4C84A21B5D5650044500F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A4C84821B5D5650044500F /* LaunchScreen.storyboard */; };
+		F3A4C85521B5D5650044500F /* BigTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4C85421B5D5650044500F /* BigTacToeTests.swift */; };
+		F3A4C86021B5D5650044500F /* BigTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4C85F21B5D5650044500F /* BigTacToeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3A4C85121B5D5650044500F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A4C83421B5D5640044500F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A4C83B21B5D5640044500F;
+			remoteInfo = BigTacToe;
+		};
+		F3A4C85C21B5D5650044500F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A4C83421B5D5640044500F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A4C83B21B5D5640044500F;
+			remoteInfo = BigTacToe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3A4C83C21B5D5640044500F /* BigTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A4C83F21B5D5640044500F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3A4C84121B5D5640044500F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3A4C84421B5D5640044500F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3A4C84621B5D5650044500F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3A4C84921B5D5650044500F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3A4C84B21B5D5650044500F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A4C85021B5D5650044500F /* BigTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A4C85421B5D5650044500F /* BigTacToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTacToeTests.swift; sourceTree = "<group>"; };
+		F3A4C85621B5D5650044500F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A4C85B21B5D5650044500F /* BigTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A4C85F21B5D5650044500F /* BigTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTacToeUITests.swift; sourceTree = "<group>"; };
+		F3A4C86121B5D5650044500F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3A4C83921B5D5640044500F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A4C84D21B5D5650044500F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A4C85821B5D5650044500F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3A4C83321B5D5640044500F = {
+			isa = PBXGroup;
+			children = (
+				F3A4C83E21B5D5640044500F /* BigTacToe */,
+				F3A4C85321B5D5650044500F /* BigTacToeTests */,
+				F3A4C85E21B5D5650044500F /* BigTacToeUITests */,
+				F3A4C83D21B5D5640044500F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3A4C83D21B5D5640044500F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A4C83C21B5D5640044500F /* BigTacToe.app */,
+				F3A4C85021B5D5650044500F /* BigTacToeTests.xctest */,
+				F3A4C85B21B5D5650044500F /* BigTacToeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3A4C83E21B5D5640044500F /* BigTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				F3A4C83F21B5D5640044500F /* AppDelegate.swift */,
+				F3A4C84121B5D5640044500F /* ViewController.swift */,
+				F3A4C84321B5D5640044500F /* Main.storyboard */,
+				F3A4C84621B5D5650044500F /* Assets.xcassets */,
+				F3A4C84821B5D5650044500F /* LaunchScreen.storyboard */,
+				F3A4C84B21B5D5650044500F /* Info.plist */,
+			);
+			path = BigTacToe;
+			sourceTree = "<group>";
+		};
+		F3A4C85321B5D5650044500F /* BigTacToeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3A4C85421B5D5650044500F /* BigTacToeTests.swift */,
+				F3A4C85621B5D5650044500F /* Info.plist */,
+			);
+			path = BigTacToeTests;
+			sourceTree = "<group>";
+		};
+		F3A4C85E21B5D5650044500F /* BigTacToeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3A4C85F21B5D5650044500F /* BigTacToeUITests.swift */,
+				F3A4C86121B5D5650044500F /* Info.plist */,
+			);
+			path = BigTacToeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3A4C83B21B5D5640044500F /* BigTacToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A4C86421B5D5650044500F /* Build configuration list for PBXNativeTarget "BigTacToe" */;
+			buildPhases = (
+				F3A4C83821B5D5640044500F /* Sources */,
+				F3A4C83921B5D5640044500F /* Frameworks */,
+				F3A4C83A21B5D5640044500F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigTacToe;
+			productName = BigTacToe;
+			productReference = F3A4C83C21B5D5640044500F /* BigTacToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3A4C84F21B5D5650044500F /* BigTacToeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A4C86721B5D5650044500F /* Build configuration list for PBXNativeTarget "BigTacToeTests" */;
+			buildPhases = (
+				F3A4C84C21B5D5650044500F /* Sources */,
+				F3A4C84D21B5D5650044500F /* Frameworks */,
+				F3A4C84E21B5D5650044500F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A4C85221B5D5650044500F /* PBXTargetDependency */,
+			);
+			name = BigTacToeTests;
+			productName = BigTacToeTests;
+			productReference = F3A4C85021B5D5650044500F /* BigTacToeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3A4C85A21B5D5650044500F /* BigTacToeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A4C86A21B5D5650044500F /* Build configuration list for PBXNativeTarget "BigTacToeUITests" */;
+			buildPhases = (
+				F3A4C85721B5D5650044500F /* Sources */,
+				F3A4C85821B5D5650044500F /* Frameworks */,
+				F3A4C85921B5D5650044500F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A4C85D21B5D5650044500F /* PBXTargetDependency */,
+			);
+			name = BigTacToeUITests;
+			productName = BigTacToeUITests;
+			productReference = F3A4C85B21B5D5650044500F /* BigTacToeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3A4C83421B5D5640044500F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tyler Stickler";
+				TargetAttributes = {
+					F3A4C83B21B5D5640044500F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F3A4C84F21B5D5650044500F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F3A4C83B21B5D5640044500F;
+					};
+					F3A4C85A21B5D5650044500F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F3A4C83B21B5D5640044500F;
+					};
+				};
+			};
+			buildConfigurationList = F3A4C83721B5D5640044500F /* Build configuration list for PBXProject "BigTacToe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3A4C83321B5D5640044500F;
+			productRefGroup = F3A4C83D21B5D5640044500F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3A4C83B21B5D5640044500F /* BigTacToe */,
+				F3A4C84F21B5D5650044500F /* BigTacToeTests */,
+				F3A4C85A21B5D5650044500F /* BigTacToeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3A4C83A21B5D5640044500F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A4C84A21B5D5650044500F /* LaunchScreen.storyboard in Resources */,
+				F3A4C84721B5D5650044500F /* Assets.xcassets in Resources */,
+				F3A4C84521B5D5640044500F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A4C84E21B5D5650044500F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A4C85921B5D5650044500F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3A4C83821B5D5640044500F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A4C84221B5D5640044500F /* ViewController.swift in Sources */,
+				F3A4C84021B5D5640044500F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A4C84C21B5D5650044500F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A4C85521B5D5650044500F /* BigTacToeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A4C85721B5D5650044500F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A4C86021B5D5650044500F /* BigTacToeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3A4C85221B5D5650044500F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3A4C83B21B5D5640044500F /* BigTacToe */;
+			targetProxy = F3A4C85121B5D5650044500F /* PBXContainerItemProxy */;
+		};
+		F3A4C85D21B5D5650044500F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3A4C83B21B5D5640044500F /* BigTacToe */;
+			targetProxy = F3A4C85C21B5D5650044500F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3A4C84321B5D5640044500F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A4C84421B5D5640044500F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3A4C84821B5D5650044500F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A4C84921B5D5650044500F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3A4C86221B5D5650044500F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3A4C86321B5D5650044500F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3A4C86521B5D5650044500F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tstick.BigTacToe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3A4C86621B5D5650044500F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tstick.BigTacToe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3A4C86821B5D5650044500F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigTacToeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tstick.BigTacToeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigTacToe.app/BigTacToe";
+			};
+			name = Debug;
+		};
+		F3A4C86921B5D5650044500F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigTacToeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tstick.BigTacToeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigTacToe.app/BigTacToe";
+			};
+			name = Release;
+		};
+		F3A4C86B21B5D5650044500F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigTacToeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tstick.BigTacToeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BigTacToe;
+			};
+			name = Debug;
+		};
+		F3A4C86C21B5D5650044500F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BigTacToeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tstick.BigTacToeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BigTacToe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3A4C83721B5D5640044500F /* Build configuration list for PBXProject "BigTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A4C86221B5D5650044500F /* Debug */,
+				F3A4C86321B5D5650044500F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A4C86421B5D5650044500F /* Build configuration list for PBXNativeTarget "BigTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A4C86521B5D5650044500F /* Debug */,
+				F3A4C86621B5D5650044500F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A4C86721B5D5650044500F /* Build configuration list for PBXNativeTarget "BigTacToeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A4C86821B5D5650044500F /* Debug */,
+				F3A4C86921B5D5650044500F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A4C86A21B5D5650044500F /* Build configuration list for PBXNativeTarget "BigTacToeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A4C86B21B5D5650044500F /* Debug */,
+				F3A4C86C21B5D5650044500F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3A4C83421B5D5640044500F /* Project object */;
+}
