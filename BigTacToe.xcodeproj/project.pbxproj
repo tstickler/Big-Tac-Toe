@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51F569182141AE254A6A243F /* Pods_BigTacToeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EA619F89A1B7182BEF2FF5 /* Pods_BigTacToeTests.framework */; };
+		82DE51DF6299EB1C5BB5E1E6 /* Pods_BigTacToeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B365602A03DF353D56F76FF /* Pods_BigTacToeUITests.framework */; };
+		BBA338BA511325B5087EBCF5 /* Pods_BigTacToe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B71C1D54F5566CCFA66929 /* Pods_BigTacToe.framework */; };
+		F315BD8C21BB221400DA595B /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315BD8B21BB221400DA595B /* Firebase.swift */; };
+		F315BD8E21BB2BD400DA595B /* FirebaseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F315BD8D21BB2BD400DA595B /* FirebaseDelegate.swift */; };
+		F359FECA21C0DBA800ED8E6F /* GameSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F359FEC921C0DBA800ED8E6F /* GameSelectionViewController.swift */; };
+		F378E85F21B8CBC600639523 /* BigTacToeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F378E85E21B8CBC600639523 /* BigTacToeDelegate.swift */; };
+		F378E86121BB1EB500639523 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F378E86021BB1EB500639523 /* LoginViewController.swift */; };
+		F378E86321BB1F3F00639523 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F378E86221BB1F3F00639523 /* GoogleService-Info.plist */; };
 		F3A4C84021B5D5640044500F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4C83F21B5D5640044500F /* AppDelegate.swift */; };
-		F3A4C84221B5D5640044500F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4C84121B5D5640044500F /* ViewController.swift */; };
+		F3A4C84221B5D5640044500F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4C84121B5D5640044500F /* GameViewController.swift */; };
 		F3A4C84521B5D5640044500F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A4C84321B5D5640044500F /* Main.storyboard */; };
 		F3A4C84721B5D5650044500F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A4C84621B5D5650044500F /* Assets.xcassets */; };
 		F3A4C84A21B5D5650044500F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A4C84821B5D5650044500F /* LaunchScreen.storyboard */; };
 		F3A4C85521B5D5650044500F /* BigTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4C85421B5D5650044500F /* BigTacToeTests.swift */; };
 		F3A4C86021B5D5650044500F /* BigTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A4C85F21B5D5650044500F /* BigTacToeUITests.swift */; };
+		F3A71FF421B65DBE003CC67E /* BigTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A71FF321B65DBE003CC67E /* BigTacToe.swift */; };
+		F3A71FF821B663FC003CC67E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A71FF721B663FC003CC67E /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29BF26EF377A45A3791B5BE2 /* Pods-BigTacToe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTacToe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTacToe/Pods-BigTacToe.debug.xcconfig"; sourceTree = "<group>"; };
+		2B365602A03DF353D56F76FF /* Pods_BigTacToeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigTacToeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77EE0FBB76AD6061E0723E32 /* Pods-BigTacToeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTacToeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTacToeUITests/Pods-BigTacToeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84EA619F89A1B7182BEF2FF5 /* Pods_BigTacToeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigTacToeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B71C1D54F5566CCFA66929 /* Pods_BigTacToe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigTacToe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC31C4B3063491033E13670C /* Pods-BigTacToe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTacToe.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTacToe/Pods-BigTacToe.release.xcconfig"; sourceTree = "<group>"; };
+		C28B2AA97DB769907186F18E /* Pods-BigTacToeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTacToeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTacToeTests/Pods-BigTacToeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C32EFD08512522C6B138A747 /* Pods-BigTacToeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTacToeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTacToeUITests/Pods-BigTacToeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9183B4CEC51225BE0FB5A49 /* Pods-BigTacToeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTacToeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTacToeTests/Pods-BigTacToeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F315BD8B21BB221400DA595B /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		F315BD8D21BB2BD400DA595B /* FirebaseDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDelegate.swift; sourceTree = "<group>"; };
+		F359FEC921C0DBA800ED8E6F /* GameSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectionViewController.swift; sourceTree = "<group>"; };
+		F378E85E21B8CBC600639523 /* BigTacToeDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTacToeDelegate.swift; sourceTree = "<group>"; };
+		F378E86021BB1EB500639523 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F378E86221BB1F3F00639523 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F3A4C83C21B5D5640044500F /* BigTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A4C83F21B5D5640044500F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3A4C84121B5D5640044500F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3A4C84121B5D5640044500F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		F3A4C84421B5D5640044500F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3A4C84621B5D5650044500F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3A4C84921B5D5650044500F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,8 @@
 		F3A4C85B21B5D5650044500F /* BigTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A4C85F21B5D5650044500F /* BigTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTacToeUITests.swift; sourceTree = "<group>"; };
 		F3A4C86121B5D5650044500F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A71FF321B65DBE003CC67E /* BigTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTacToe.swift; sourceTree = "<group>"; };
+		F3A71FF721B663FC003CC67E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA338BA511325B5087EBCF5 /* Pods_BigTacToe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F569182141AE254A6A243F /* Pods_BigTacToeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DE51DF6299EB1C5BB5E1E6 /* Pods_BigTacToeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8751300C65D52907671F3CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29BF26EF377A45A3791B5BE2 /* Pods-BigTacToe.debug.xcconfig */,
+				BC31C4B3063491033E13670C /* Pods-BigTacToe.release.xcconfig */,
+				C9183B4CEC51225BE0FB5A49 /* Pods-BigTacToeTests.debug.xcconfig */,
+				C28B2AA97DB769907186F18E /* Pods-BigTacToeTests.release.xcconfig */,
+				C32EFD08512522C6B138A747 /* Pods-BigTacToeUITests.debug.xcconfig */,
+				77EE0FBB76AD6061E0723E32 /* Pods-BigTacToeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3BE5F81BC755FB745429A13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1B71C1D54F5566CCFA66929 /* Pods_BigTacToe.framework */,
+				84EA619F89A1B7182BEF2FF5 /* Pods_BigTacToeTests.framework */,
+				2B365602A03DF353D56F76FF /* Pods_BigTacToeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3A4C83321B5D5640044500F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +135,8 @@
 				F3A4C85321B5D5650044500F /* BigTacToeTests */,
 				F3A4C85E21B5D5650044500F /* BigTacToeUITests */,
 				F3A4C83D21B5D5640044500F /* Products */,
+				A8751300C65D52907671F3CE /* Pods */,
+				C3BE5F81BC755FB745429A13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +153,16 @@
 		F3A4C83E21B5D5640044500F /* BigTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				F3ED9F1622861433007B421A /* Delegates */,
+				F3A71FF221B64B84003CC67E /* Controller */,
+				F3A71FF121B64B7A003CC67E /* View */,
+				F3A71FF021B64B6F003CC67E /* Model */,
 				F3A4C83F21B5D5640044500F /* AppDelegate.swift */,
-				F3A4C84121B5D5640044500F /* ViewController.swift */,
 				F3A4C84321B5D5640044500F /* Main.storyboard */,
 				F3A4C84621B5D5650044500F /* Assets.xcassets */,
 				F3A4C84821B5D5650044500F /* LaunchScreen.storyboard */,
 				F3A4C84B21B5D5650044500F /* Info.plist */,
+				F378E86221BB1F3F00639523 /* GoogleService-Info.plist */,
 			);
 			path = BigTacToe;
 			sourceTree = "<group>";
@@ -125,6 +185,42 @@
 			path = BigTacToeUITests;
 			sourceTree = "<group>";
 		};
+		F3A71FF021B64B6F003CC67E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3A71FF721B663FC003CC67E /* Player.swift */,
+				F3A71FF321B65DBE003CC67E /* BigTacToe.swift */,
+				F315BD8B21BB221400DA595B /* Firebase.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3A71FF121B64B7A003CC67E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3A71FF221B64B84003CC67E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F378E86021BB1EB500639523 /* LoginViewController.swift */,
+				F359FEC921C0DBA800ED8E6F /* GameSelectionViewController.swift */,
+				F3A4C84121B5D5640044500F /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F3ED9F1622861433007B421A /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				F378E85E21B8CBC600639523 /* BigTacToeDelegate.swift */,
+				F315BD8D21BB2BD400DA595B /* FirebaseDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3A4C86421B5D5650044500F /* Build configuration list for PBXNativeTarget "BigTacToe" */;
 			buildPhases = (
+				D4C7E57418E6C451EDE13A0D /* [CP] Check Pods Manifest.lock */,
 				F3A4C83821B5D5640044500F /* Sources */,
 				F3A4C83921B5D5640044500F /* Frameworks */,
 				F3A4C83A21B5D5640044500F /* Resources */,
+				844B4C239834923B737014BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3A4C86721B5D5650044500F /* Build configuration list for PBXNativeTarget "BigTacToeTests" */;
 			buildPhases = (
+				7BE511037B9760204145DFDA /* [CP] Check Pods Manifest.lock */,
 				F3A4C84C21B5D5650044500F /* Sources */,
 				F3A4C84D21B5D5650044500F /* Frameworks */,
 				F3A4C84E21B5D5650044500F /* Resources */,
@@ -167,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3A4C86A21B5D5650044500F /* Build configuration list for PBXNativeTarget "BigTacToeUITests" */;
 			buildPhases = (
+				807A9E7E56F6E0CF6EA4ACDC /* [CP] Check Pods Manifest.lock */,
 				F3A4C85721B5D5650044500F /* Sources */,
 				F3A4C85821B5D5650044500F /* Frameworks */,
 				F3A4C85921B5D5650044500F /* Resources */,
@@ -230,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3A4C84A21B5D5650044500F /* LaunchScreen.storyboard in Resources */,
+				F378E86321BB1F3F00639523 /* GoogleService-Info.plist in Resources */,
 				F3A4C84721B5D5650044500F /* Assets.xcassets in Resources */,
 				F3A4C84521B5D5640044500F /* Main.storyboard in Resources */,
 			);
@@ -251,13 +352,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7BE511037B9760204145DFDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BigTacToeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		807A9E7E56F6E0CF6EA4ACDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BigTacToeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		844B4C239834923B737014BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BigTacToe/Pods-BigTacToe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigTacToe/Pods-BigTacToe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C7E57418E6C451EDE13A0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BigTacToe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3A4C83821B5D5640044500F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A4C84221B5D5640044500F /* ViewController.swift in Sources */,
+				F315BD8C21BB221400DA595B /* Firebase.swift in Sources */,
+				F378E86121BB1EB500639523 /* LoginViewController.swift in Sources */,
+				F3A71FF421B65DBE003CC67E /* BigTacToe.swift in Sources */,
+				F3A4C84221B5D5640044500F /* GameViewController.swift in Sources */,
+				F3A71FF821B663FC003CC67E /* Player.swift in Sources */,
+				F315BD8E21BB2BD400DA595B /* FirebaseDelegate.swift in Sources */,
 				F3A4C84021B5D5640044500F /* AppDelegate.swift in Sources */,
+				F378E85F21B8CBC600639523 /* BigTacToeDelegate.swift in Sources */,
+				F359FECA21C0DBA800ED8E6F /* GameSelectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +633,13 @@
 		};
 		F3A4C86521B5D5650044500F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BF26EF377A45A3791B5BE2 /* Pods-BigTacToe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78T5848B44;
 				INFOPLIST_FILE = BigTacToe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +653,13 @@
 		};
 		F3A4C86621B5D5650044500F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC31C4B3063491033E13670C /* Pods-BigTacToe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78T5848B44;
 				INFOPLIST_FILE = BigTacToe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +673,7 @@
 		};
 		F3A4C86821B5D5650044500F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9183B4CEC51225BE0FB5A49 /* Pods-BigTacToeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +694,7 @@
 		};
 		F3A4C86921B5D5650044500F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28B2AA97DB769907186F18E /* Pods-BigTacToeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +715,7 @@
 		};
 		F3A4C86B21B5D5650044500F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32EFD08512522C6B138A747 /* Pods-BigTacToeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +735,7 @@
 		};
 		F3A4C86C21B5D5650044500F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77EE0FBB76AD6061E0723E32 /* Pods-BigTacToeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
